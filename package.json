@@ -5,6 +5,9 @@
   "author": "Hoppscotch (support@hoppscotch.io)",
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
